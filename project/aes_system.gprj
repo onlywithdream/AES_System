@@ -1,0 +1,45 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
+    <FileList>
+        <File path="../hw/core/picorv32.v" type="file.verilog" enable="1"/>
+        <File path="../hw/gowin_ip/Gowin_Boot_SP_8x2K_0.v" type="file.verilog" enable="1"/>
+        <File path="../hw/gowin_ip/Gowin_Boot_SP_8x2K_1.v" type="file.verilog" enable="1"/>
+        <File path="../hw/gowin_ip/Gowin_Boot_SP_8x2K_2.v" type="file.verilog" enable="1"/>
+        <File path="../hw/gowin_ip/Gowin_Boot_SP_8x2K_3.v" type="file.verilog" enable="1"/>
+        <File path="../hw/gowin_ip/Gowin_SBox_DPRam.v" type="file.verilog" enable="1"/>
+        <File path="../hw/gowin_ip/Gowin_SP_8x16K.v" type="file.verilog" enable="1"/>
+        <File path="../hw/gowin_ip/Gowin_SP_8x2K.v" type="file.verilog" enable="1"/>
+        <File path="../hw/gowin_ip/Gowin_SP_8x4K.v" type="file.verilog" enable="1"/>
+        <File path="../hw/gowin_ip/Gowin_SP_8x8K.v" type="file.verilog" enable="1"/>
+        <File path="../hw/gowin_ip/Gowin_rPLL.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/AES.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/AESCtrl.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/AES_mem.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/IterateEle.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/KeyExpansion.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/KeyExpansionCtrl.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/MixCol.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/MixCols.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/RKeyDistributor.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/RoundAdd.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/SBox.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/SBox_DPRom.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/ShiftRows.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/aes/WordExpansion.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/interconnect/AddrMux1_4.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/interconnect/Interconnect.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/ram/RAM.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/ram/RAM_mem.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/uart/UART_mem.v" type="file.verilog" enable="1"/>
+        <File path="../hw/peripheral/uart/simpleuart.v" type="file.verilog" enable="1"/>
+        <File path="../hw/picorv32SOC.v" type="file.verilog" enable="1"/>
+        <File path="../hw/sync/sync_e2u.v" type="file.verilog" enable="1"/>
+        <File path="../hw/picorv32SOC.cst" type="file.cst" enable="1"/>
+        <File path="../hw/AES_mem.sdc" type="file.sdc" enable="0"/>
+        <File path="../hw/picorv32SOC.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

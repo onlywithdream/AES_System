@@ -1,0 +1,13 @@
+//external clk and rstn
+IO_LOC "eclk" H11;
+IO_PORT "eclk" IO_TYPE=LVCMOS33;
+
+IO_LOC "erstn" T3;
+IO_PORT "erstn" IO_TYPE=LVCMOS15;
+
+//uart
+IO_LOC "uart_rx" T13;
+IO_PORT "uart_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "uart_tx" M11;
+IO_PORT "uart_tx" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;

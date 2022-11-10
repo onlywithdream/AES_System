@@ -1,0 +1,187 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_0.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_1.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_2.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_3.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x16K.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x2K.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x4K.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x8K.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_rPLL.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AESCtrl.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES_mem.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/IterateEle.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansion.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansionCtrl.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/RKeyDistributor.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/RoundAdd.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/ShiftRows.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/WordExpansion.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/AddrMux1_4.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/Interconnect.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM_mem.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/uart/UART_mem.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/peripheral/uart/simpleuart.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v'
+Analyzing Verilog file '/home/zhs/Project/AES_Cryptosystem/hw/sync/sync_e2u.v'
+WARN  (EX3073) : Port 'mem_la_read' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+Compiling module 'picorv32SOC'("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":1)
+Compiling module 'Gowin_rPLL'("/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_rPLL.v":9)
+Compiling module 'sync_e2u'("/home/zhs/Project/AES_Cryptosystem/hw/sync/sync_e2u.v":1)
+Compiling module 'picorv32(TWO_CYCLE_COMPARE=1,TWO_CYCLE_ALU=1,COMPRESSED_ISA=1,ENABLE_PCPI=1,ENABLE_MUL=1,ENABLE_DIV=1,ENABLE_IRQ=1,PROGADDR_RESET=32'h00000000,PROGADDR_IRQ=32'h00000004,STACKADDR=32'h00002000)'("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":62)
+Extracting RAM for identifier 'cpuregs'("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":203)
+Compiling module 'picorv32_pcpi_mul'("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":2192)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 7("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":2294)
+WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":2308)
+Compiling module 'picorv32_pcpi_div'("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":2415)
+WARN  (EX3791) : Expression size 63 truncated to fit in target size 32("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":2494)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":332)
+WARN  (EX3827) : Synthesis - simulation differences may occur when using full_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":403)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":797)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":798)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":799)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":830)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":831)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":832)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1117)
+WARN  (EX3791) : Expression size 33 truncated to fit in target size 32("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1231)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 1("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1245)
+WARN  (EX3827) : Synthesis - simulation differences may occur when using full_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1247)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1247)
+WARN  (EX3827) : Synthesis - simulation differences may occur when using full_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1264)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1264)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1310)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 6("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1344)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1399)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1421)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1493)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1589)
+WARN  (EX3827) : Synthesis - simulation differences may occur when using full_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1623)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1623)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1704)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1579)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1726)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1731)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1756)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1762)
+WARN  (EX3827) : Synthesis - simulation differences may occur when using full_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1832)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1832)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1837)
+WARN  (EX3827) : Synthesis - simulation differences may occur when using full_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1840)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1840)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1845)
+WARN  (EX3827) : Synthesis - simulation differences may occur when using full_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1855)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1855)
+WARN  (EX3827) : Synthesis - simulation differences may occur when using full_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1880)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1880)
+WARN  (EX3827) : Synthesis - simulation differences may occur when using full_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1897)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v":1897)
+Compiling module 'Interconnect'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/Interconnect.v":10)
+Compiling module 'AddrMux1_4(AddrMask0=32'h70000000,BaseAddr1=32'h10000000,AddrMask1=32'h70000000,BaseAddr2=32'h20000000,AddrMask2=32'h60000000,BaseAddr3=32'h40000000,AddrMask3=32'h40000000)'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/AddrMux1_4.v":1)
+Compiling module 'AddrMux1_4(BaseAddr0=32'h20000000,AddrMask0=32'h18000000,BaseAddr1=32'h28000000,AddrMask1=32'h18000000,BaseAddr2=32'h30000000,AddrMask2=32'h18000000,BaseAddr3=32'h38000000,AddrMask3=32'h18000000)'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/AddrMux1_4.v":1)
+Compiling module 'RAM_mem'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM_mem.v":1)
+Compiling module 'RAM'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM.v":1)
+Compiling module 'Gowin_Boot_SP_8x2K_0'("/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_0.v":9)
+WARN  (EX3670) : Actual bit length 12 differs from formal bit length 11 for port 'ad'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM.v":19)
+Compiling module 'Gowin_Boot_SP_8x2K_1'("/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_1.v":9)
+WARN  (EX3670) : Actual bit length 12 differs from formal bit length 11 for port 'ad'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM.v":29)
+Compiling module 'Gowin_Boot_SP_8x2K_2'("/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_2.v":9)
+WARN  (EX3670) : Actual bit length 12 differs from formal bit length 11 for port 'ad'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM.v":39)
+Compiling module 'Gowin_Boot_SP_8x2K_3'("/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_3.v":9)
+WARN  (EX3670) : Actual bit length 12 differs from formal bit length 11 for port 'ad'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM.v":49)
+WARN  (EX3670) : Actual bit length 30 differs from formal bit length 12 for port 'ad'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM_mem.v":28)
+Compiling module 'UART_mem'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/uart/UART_mem.v":6)
+Compiling module 'simpleuart'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/uart/simpleuart.v":20)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/uart/simpleuart.v":97)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/uart/simpleuart.v":127)
+Compiling module 'AES_mem'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES_mem.v":11)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES_mem.v":114)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 1("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES_mem.v":118)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 2("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES_mem.v":119)
+Compiling module 'AES'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES.v":1)
+Compiling module 'AESCtrl'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AESCtrl.v":1)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AESCtrl.v":136)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AESCtrl.v":139)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AESCtrl.v":143)
+Compiling module 'KeyExpansion'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansion.v":1)
+Compiling module 'KeyExpansionCtrl'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansionCtrl.v":1)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansionCtrl.v":94)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansionCtrl.v":97)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansionCtrl.v":98)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansionCtrl.v":100)
+Compiling module 'WordExpansion'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/WordExpansion.v":1)
+Compiling module 'SBox_DPRom(ReadMode=1'b1)'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v":1)
+Compiling module 'Gowin_SBox_DPRam(ReadMode=1'b1)'("/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v":9)
+Compiling module 'RKeyDistributor'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/RKeyDistributor.v":1)
+Compiling module 'IterateEle'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/IterateEle.v":1)
+Compiling module 'SBox'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox.v":1)
+Compiling module 'ShiftRows'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/ShiftRows.v":1)
+Compiling module 'MixCols'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v":1)
+Compiling module 'MixCol'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v":1)
+Compiling module 'RoundAdd'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/RoundAdd.v":1)
+Compiling module 'MixCols(MixStep=2)'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v":1)
+Compiling module 'MixCol(MixStep=2)'("/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v":1)
+WARN  (EX1947) : Input port 'pcpi_wr' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[31]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[30]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[29]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[28]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[27]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[26]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[25]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[24]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[23]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[22]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[21]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[20]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[19]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[18]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[17]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[16]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[15]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[14]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[13]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[12]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[11]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[10]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[9]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[8]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[7]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[6]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[5]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[4]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[3]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[2]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[1]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_rd[0]' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_wait' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+WARN  (EX1947) : Input port 'pcpi_ready' remains unconnected for this instance("/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v":94)
+NOTE  (EX0101) : Current top module is "picorv32SOC"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "/home/zhs/Project/AES_Cryptosystem/project/impl/gwsynthesis/aes_system.vg" completed
+[100%] Generate report file "/home/zhs/Project/AES_Cryptosystem/project/impl/gwsynthesis/aes_system_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,12 @@
+-d /home/zhs/Project/AES_Cryptosystem/project/impl/gwsynthesis/aes_system.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst /home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.cst
+-cfg /home/zhs/Project/AES_Cryptosystem/project/impl/pnr/device.cfg
+-sdc /home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-route_maxfan 23

@@ -1,0 +1,144 @@
+{
+ "Files" : [
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_0.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_3.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x16K.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x2K.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x4K.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x8K.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_rPLL.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AESCtrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES_mem.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/IterateEle.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansion.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansionCtrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/RKeyDistributor.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/RoundAdd.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/ShiftRows.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/WordExpansion.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/AddrMux1_4.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/Interconnect.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM_mem.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/uart/UART_mem.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/uart/simpleuart.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/zhs/Project/AES_Cryptosystem/hw/sync/sync_e2u.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/home/zhs/Project/AES_Cryptosystem/project/impl/temp/rtl_parser.result",
+ "Top" : "picorv32SOC",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

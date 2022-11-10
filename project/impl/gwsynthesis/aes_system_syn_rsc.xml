@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="picorv32SOC">
+ <SubModule name="rPLL_inst"/>
+ <SubModule name="sync_e2u_inst" Register="2" Lut="1"/>
+ <SubModule name="rv32_inst" Register="766" Alu="374" Lut="2035" Bsram="2">
+  <SubModule name="pcpi_mul" Register="255" Alu="78" Lut="332"/>
+  <SubModule name="pcpi_div" Register="200" Alu="64" Lut="338"/>
+ </SubModule>
+ <SubModule name="Interconnect_inst">
+  <SubModule name="global_AddrMux1_4_inst" Lut="65"/>
+  <SubModule name="peripheral_AddrMux1_4_inst" Lut="2"/>
+ </SubModule>
+ <SubModule name="RAM_mem_inst" Register="1" Lut="3">
+  <SubModule name="RAM_inst">
+   <SubModule name="Gowin_Boot_SP_8x2K_0_inst" Bsram="1"/>
+   <SubModule name="Gowin_Boot_SP_8x2K_1_inst" Bsram="1"/>
+   <SubModule name="Gowin_Boot_SP_8x2K_2_inst" Bsram="1"/>
+   <SubModule name="Gowin_Boot_SP_8x2K_3_inst" Bsram="1"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="UART_mem_inst" Lut="5">
+  <SubModule name="simpleuart_inst" Register="131" Alu="124" Lut="92"/>
+ </SubModule>
+ <SubModule name="AES_mem_inst" Register="66" Lut="147" Ssram="64">
+  <SubModule name="AES_inst">
+   <SubModule name="AESCtrl_inst" Register="24" Lut="39"/>
+   <SubModule name="KeyExpansion_inst" Register="256" Lut="194">
+    <SubModule name="Ctrl_inst" Register="24" Lut="27"/>
+    <SubModule name="WordExpansion_inst" Register="32" Lut="32">
+     <SubModule name="g_SubWord[0].SBox_DPRom_inst">
+      <SubModule name="Gowin_SBox_DPRam_inst" Bsram="1"/>
+     </SubModule>
+     <SubModule name="g_SubWord[1].SBox_DPRom_inst">
+      <SubModule name="Gowin_SBox_DPRam_inst" Bsram="1"/>
+     </SubModule>
+    </SubModule>
+   </SubModule>
+   <SubModule name="RKeyDistributor_inst" Register="1920" Lut="2434"/>
+   <SubModule name="IterateEle_inst" Register="128">
+    <SubModule name="SBox_inst">
+     <SubModule name="g_SBoxDPRom[0].SBox_DPRom_inst">
+      <SubModule name="Gowin_SBox_DPRam_inst" Bsram="1"/>
+     </SubModule>
+     <SubModule name="g_SBoxDPRom[1].SBox_DPRom_inst">
+      <SubModule name="Gowin_SBox_DPRam_inst" Bsram="1"/>
+     </SubModule>
+     <SubModule name="g_SBoxDPRom[2].SBox_DPRom_inst">
+      <SubModule name="Gowin_SBox_DPRam_inst" Bsram="1"/>
+     </SubModule>
+     <SubModule name="g_SBoxDPRom[3].SBox_DPRom_inst">
+      <SubModule name="Gowin_SBox_DPRam_inst" Bsram="1"/>
+     </SubModule>
+     <SubModule name="g_SBoxDPRom[4].SBox_DPRom_inst">
+      <SubModule name="Gowin_SBox_DPRam_inst" Bsram="1"/>
+     </SubModule>
+     <SubModule name="g_SBoxDPRom[5].SBox_DPRom_inst">
+      <SubModule name="Gowin_SBox_DPRam_inst" Bsram="1"/>
+     </SubModule>
+     <SubModule name="g_SBoxDPRom[6].SBox_DPRom_inst">
+      <SubModule name="Gowin_SBox_DPRam_inst" Bsram="1"/>
+     </SubModule>
+     <SubModule name="g_SBoxDPRom[7].SBox_DPRom_inst">
+      <SubModule name="Gowin_SBox_DPRam_inst" Bsram="1"/>
+     </SubModule>
+    </SubModule>
+    <SubModule name="ShiftRows_inst" Register="128" Lut="64"/>
+    <SubModule name="sMixCols_1_inst">
+     <SubModule name="g_MixCol[0].MixCol_inst" Register="96" Lut="64"/>
+     <SubModule name="g_MixCol[1].MixCol_inst" Register="96" Lut="64"/>
+     <SubModule name="g_MixCol[2].MixCol_inst" Register="96" Lut="64"/>
+     <SubModule name="g_MixCol[3].MixCol_inst" Register="96" Lut="64"/>
+    </SubModule>
+    <SubModule name="rkMixCols_1_inst">
+     <SubModule name="g_MixCol[0].MixCol_inst" Register="96" Lut="64"/>
+     <SubModule name="g_MixCol[1].MixCol_inst" Register="96" Lut="64"/>
+     <SubModule name="g_MixCol[2].MixCol_inst" Register="96" Lut="64"/>
+     <SubModule name="g_MixCol[3].MixCol_inst" Register="96" Lut="64"/>
+    </SubModule>
+    <SubModule name="RoundAdd_inst" Lut="128"/>
+    <SubModule name="sMixCols_2_inst">
+     <SubModule name="g_MixCol[0].MixCol_inst" Register="84" Lut="52"/>
+     <SubModule name="g_MixCol[1].MixCol_inst" Register="84" Lut="52"/>
+     <SubModule name="g_MixCol[2].MixCol_inst" Register="84" Lut="52"/>
+     <SubModule name="g_MixCol[3].MixCol_inst" Register="84" Lut="52"/>
+    </SubModule>
+   </SubModule>
+  </SubModule>
+ </SubModule>
+</Module>

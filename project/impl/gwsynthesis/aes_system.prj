@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-18C" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
+    <FileList>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_0.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_1.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_2.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_3.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x16K.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x2K.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x4K.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x8K.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_rPLL.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AESCtrl.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES_mem.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/IterateEle.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansion.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansionCtrl.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/RKeyDistributor.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/RoundAdd.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/ShiftRows.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/WordExpansion.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/AddrMux1_4.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/Interconnect.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM_mem.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/uart/UART_mem.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/peripheral/uart/simpleuart.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v" type="verilog"/>
+        <File path="/home/zhs/Project/AES_Cryptosystem/hw/sync/sync_e2u.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="/home/zhs/Project/AES_Cryptosystem/project/impl/gwsynthesis/aes_system.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="picorv32SOC"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

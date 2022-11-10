@@ -1,0 +1,640 @@
+[
+ {
+  "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+  "InstLine" : 2169,
+  "InstName" : "picorv32_regs",
+  "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+  "ModuleLine" : 2169,
+  "ModuleName" : "picorv32_regs"
+ },
+ {
+  "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+  "InstLine" : 2512,
+  "InstName" : "picorv32_axi",
+  "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+  "ModuleLine" : 2512,
+  "ModuleName" : "picorv32_axi",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+    "InstLine" : 2614,
+    "InstName" : "axi_adapter",
+    "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+    "ModuleLine" : 2726,
+    "ModuleName" : "picorv32_axi_adapter"
+   },
+   {
+    "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+    "InstLine" : 2669,
+    "InstName" : "picorv32_core",
+    "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+    "ModuleLine" : 62,
+    "ModuleName" : "picorv32"
+   }
+  ]
+ },
+ {
+  "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+  "InstLine" : 2810,
+  "InstName" : "picorv32_wb",
+  "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+  "ModuleLine" : 2810,
+  "ModuleName" : "picorv32_wb",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+    "InstLine" : 2933,
+    "InstName" : "picorv32_core",
+    "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+    "ModuleLine" : 62,
+    "ModuleName" : "picorv32"
+   }
+  ]
+ },
+ {
+  "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x16K.v",
+  "InstLine" : 9,
+  "InstName" : "Gowin_SP_8x16K",
+  "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x16K.v",
+  "ModuleLine" : 9,
+  "ModuleName" : "Gowin_SP_8x16K"
+ },
+ {
+  "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x2K.v",
+  "InstLine" : 9,
+  "InstName" : "Gowin_SP_8x2K",
+  "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x2K.v",
+  "ModuleLine" : 9,
+  "ModuleName" : "Gowin_SP_8x2K"
+ },
+ {
+  "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x4K.v",
+  "InstLine" : 9,
+  "InstName" : "Gowin_SP_8x4K",
+  "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x4K.v",
+  "ModuleLine" : 9,
+  "ModuleName" : "Gowin_SP_8x4K"
+ },
+ {
+  "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x8K.v",
+  "InstLine" : 9,
+  "InstName" : "Gowin_SP_8x8K",
+  "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SP_8x8K.v",
+  "ModuleLine" : 9,
+  "ModuleName" : "Gowin_SP_8x8K"
+ },
+ {
+  "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v",
+  "InstLine" : 1,
+  "InstName" : "picorv32SOC",
+  "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "picorv32SOC",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v",
+    "InstLine" : 55,
+    "InstName" : "rPLL_inst",
+    "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_rPLL.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v",
+    "InstLine" : 62,
+    "InstName" : "sync_e2u_inst",
+    "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/sync/sync_e2u.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "sync_e2u"
+   },
+   {
+    "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v",
+    "InstLine" : 81,
+    "InstName" : "rv32_inst",
+    "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+    "ModuleLine" : 62,
+    "ModuleName" : "picorv32",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+      "InstLine" : 286,
+      "InstName" : "pcpi_mul",
+      "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+      "ModuleLine" : 2192,
+      "ModuleName" : "picorv32_pcpi_mul"
+     },
+     {
+      "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+      "InstLine" : 306,
+      "InstName" : "pcpi_div",
+      "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/core/picorv32.v",
+      "ModuleLine" : 2415,
+      "ModuleName" : "picorv32_pcpi_div"
+     }
+    ]
+   },
+   {
+    "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v",
+    "InstLine" : 103,
+    "InstName" : "Interconnect_inst",
+    "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/Interconnect.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Interconnect",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/Interconnect.v",
+      "InstLine" : 85,
+      "InstName" : "global_AddrMux1_4_inst",
+      "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/AddrMux1_4.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "AddrMux1_4"
+     },
+     {
+      "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/Interconnect.v",
+      "InstLine" : 131,
+      "InstName" : "peripheral_AddrMux1_4_inst",
+      "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/interconnect/AddrMux1_4.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "AddrMux1_4"
+     }
+    ]
+   },
+   {
+    "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v",
+    "InstLine" : 161,
+    "InstName" : "RAM_mem_inst",
+    "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM_mem.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "RAM_mem",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM_mem.v",
+      "InstLine" : 23,
+      "InstName" : "RAM_inst",
+      "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "RAM",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM.v",
+        "InstLine" : 12,
+        "InstName" : "Gowin_Boot_SP_8x2K_0_inst",
+        "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_0.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_Boot_SP_8x2K_0"
+       },
+       {
+        "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM.v",
+        "InstLine" : 22,
+        "InstName" : "Gowin_Boot_SP_8x2K_1_inst",
+        "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_1.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_Boot_SP_8x2K_1"
+       },
+       {
+        "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM.v",
+        "InstLine" : 32,
+        "InstName" : "Gowin_Boot_SP_8x2K_2_inst",
+        "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_2.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_Boot_SP_8x2K_2"
+       },
+       {
+        "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/ram/RAM.v",
+        "InstLine" : 42,
+        "InstName" : "Gowin_Boot_SP_8x2K_3_inst",
+        "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_Boot_SP_8x2K_3.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_Boot_SP_8x2K_3"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v",
+    "InstLine" : 172,
+    "InstName" : "UART_mem_inst",
+    "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/uart/UART_mem.v",
+    "ModuleLine" : 6,
+    "ModuleName" : "UART_mem",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/uart/UART_mem.v",
+      "InstLine" : 40,
+      "InstName" : "simpleuart_inst",
+      "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/uart/simpleuart.v",
+      "ModuleLine" : 20,
+      "ModuleName" : "simpleuart"
+     }
+    ]
+   },
+   {
+    "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/picorv32SOC.v",
+    "InstLine" : 185,
+    "InstName" : "AES_mem_inst",
+    "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES_mem.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "AES_mem",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES_mem.v",
+      "InstLine" : 173,
+      "InstName" : "AES_inst",
+      "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "AES",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES.v",
+        "InstLine" : 46,
+        "InstName" : "AESCtrl_inst",
+        "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AESCtrl.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "AESCtrl"
+       },
+       {
+        "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES.v",
+        "InstLine" : 82,
+        "InstName" : "KeyExpansion_inst",
+        "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansion.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "KeyExpansion",
+        "SubInsts" : [
+         {
+          "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansion.v",
+          "InstLine" : 51,
+          "InstName" : "Ctrl_inst",
+          "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansionCtrl.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "KeyExpansionCtrl"
+         },
+         {
+          "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/KeyExpansion.v",
+          "InstLine" : 77,
+          "InstName" : "WordExpansion_inst",
+          "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/WordExpansion.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "WordExpansion",
+          "SubInsts" : [
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/WordExpansion.v",
+            "InstLine" : 24,
+            "InstName" : "g_SubWord[0].SBox_DPRom_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "SBox_DPRom",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+              "InstLine" : 15,
+              "InstName" : "Gowin_SBox_DPRam_inst",
+              "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v",
+              "ModuleLine" : 9,
+              "ModuleName" : "Gowin_SBox_DPRam"
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/WordExpansion.v",
+            "InstLine" : 24,
+            "InstName" : "g_SubWord[1].SBox_DPRom_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "SBox_DPRom",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+              "InstLine" : 15,
+              "InstName" : "Gowin_SBox_DPRam_inst",
+              "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v",
+              "ModuleLine" : 9,
+              "ModuleName" : "Gowin_SBox_DPRam"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES.v",
+        "InstLine" : 99,
+        "InstName" : "RKeyDistributor_inst",
+        "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/RKeyDistributor.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "RKeyDistributor"
+       },
+       {
+        "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/AES.v",
+        "InstLine" : 113,
+        "InstName" : "IterateEle_inst",
+        "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/IterateEle.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "IterateEle",
+        "SubInsts" : [
+         {
+          "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/IterateEle.v",
+          "InstLine" : 32,
+          "InstName" : "SBox_inst",
+          "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "SBox",
+          "SubInsts" : [
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox.v",
+            "InstLine" : 16,
+            "InstName" : "g_SBoxDPRom[0].SBox_DPRom_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "SBox_DPRom",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+              "InstLine" : 15,
+              "InstName" : "Gowin_SBox_DPRam_inst",
+              "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v",
+              "ModuleLine" : 9,
+              "ModuleName" : "Gowin_SBox_DPRam"
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox.v",
+            "InstLine" : 16,
+            "InstName" : "g_SBoxDPRom[1].SBox_DPRom_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "SBox_DPRom",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+              "InstLine" : 15,
+              "InstName" : "Gowin_SBox_DPRam_inst",
+              "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v",
+              "ModuleLine" : 9,
+              "ModuleName" : "Gowin_SBox_DPRam"
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox.v",
+            "InstLine" : 16,
+            "InstName" : "g_SBoxDPRom[2].SBox_DPRom_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "SBox_DPRom",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+              "InstLine" : 15,
+              "InstName" : "Gowin_SBox_DPRam_inst",
+              "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v",
+              "ModuleLine" : 9,
+              "ModuleName" : "Gowin_SBox_DPRam"
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox.v",
+            "InstLine" : 16,
+            "InstName" : "g_SBoxDPRom[3].SBox_DPRom_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "SBox_DPRom",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+              "InstLine" : 15,
+              "InstName" : "Gowin_SBox_DPRam_inst",
+              "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v",
+              "ModuleLine" : 9,
+              "ModuleName" : "Gowin_SBox_DPRam"
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox.v",
+            "InstLine" : 16,
+            "InstName" : "g_SBoxDPRom[4].SBox_DPRom_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "SBox_DPRom",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+              "InstLine" : 15,
+              "InstName" : "Gowin_SBox_DPRam_inst",
+              "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v",
+              "ModuleLine" : 9,
+              "ModuleName" : "Gowin_SBox_DPRam"
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox.v",
+            "InstLine" : 16,
+            "InstName" : "g_SBoxDPRom[5].SBox_DPRom_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "SBox_DPRom",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+              "InstLine" : 15,
+              "InstName" : "Gowin_SBox_DPRam_inst",
+              "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v",
+              "ModuleLine" : 9,
+              "ModuleName" : "Gowin_SBox_DPRam"
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox.v",
+            "InstLine" : 16,
+            "InstName" : "g_SBoxDPRom[6].SBox_DPRom_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "SBox_DPRom",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+              "InstLine" : 15,
+              "InstName" : "Gowin_SBox_DPRam_inst",
+              "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v",
+              "ModuleLine" : 9,
+              "ModuleName" : "Gowin_SBox_DPRam"
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox.v",
+            "InstLine" : 16,
+            "InstName" : "g_SBoxDPRom[7].SBox_DPRom_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "SBox_DPRom",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/SBox_DPRom.v",
+              "InstLine" : 15,
+              "InstName" : "Gowin_SBox_DPRam_inst",
+              "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/gowin_ip/Gowin_SBox_DPRam.v",
+              "ModuleLine" : 9,
+              "ModuleName" : "Gowin_SBox_DPRam"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/IterateEle.v",
+          "InstLine" : 39,
+          "InstName" : "ShiftRows_inst",
+          "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/ShiftRows.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "ShiftRows"
+         },
+         {
+          "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/IterateEle.v",
+          "InstLine" : 48,
+          "InstName" : "sMixCols_1_inst",
+          "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "MixCols",
+          "SubInsts" : [
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+            "InstLine" : 18,
+            "InstName" : "g_MixCol[0].MixCol_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "MixCol"
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+            "InstLine" : 18,
+            "InstName" : "g_MixCol[1].MixCol_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "MixCol"
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+            "InstLine" : 18,
+            "InstName" : "g_MixCol[2].MixCol_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "MixCol"
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+            "InstLine" : 18,
+            "InstName" : "g_MixCol[3].MixCol_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "MixCol"
+           }
+          ]
+         },
+         {
+          "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/IterateEle.v",
+          "InstLine" : 57,
+          "InstName" : "rkMixCols_1_inst",
+          "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "MixCols",
+          "SubInsts" : [
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+            "InstLine" : 18,
+            "InstName" : "g_MixCol[0].MixCol_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "MixCol"
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+            "InstLine" : 18,
+            "InstName" : "g_MixCol[1].MixCol_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "MixCol"
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+            "InstLine" : 18,
+            "InstName" : "g_MixCol[2].MixCol_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "MixCol"
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+            "InstLine" : 18,
+            "InstName" : "g_MixCol[3].MixCol_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "MixCol"
+           }
+          ]
+         },
+         {
+          "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/IterateEle.v",
+          "InstLine" : 64,
+          "InstName" : "RoundAdd_inst",
+          "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/RoundAdd.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "RoundAdd"
+         },
+         {
+          "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/IterateEle.v",
+          "InstLine" : 72,
+          "InstName" : "sMixCols_2_inst",
+          "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "MixCols",
+          "SubInsts" : [
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+            "InstLine" : 18,
+            "InstName" : "g_MixCol[0].MixCol_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "MixCol"
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+            "InstLine" : 18,
+            "InstName" : "g_MixCol[1].MixCol_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "MixCol"
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+            "InstLine" : 18,
+            "InstName" : "g_MixCol[2].MixCol_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "MixCol"
+           },
+           {
+            "InstFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCols.v",
+            "InstLine" : 18,
+            "InstName" : "g_MixCol[3].MixCol_inst",
+            "ModuleFile" : "/home/zhs/Project/AES_Cryptosystem/hw/peripheral/aes/MixCol.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "MixCol"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]
